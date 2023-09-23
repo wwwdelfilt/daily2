@@ -1,0 +1,2285 @@
+@import url(https://g.delfi.ee/scms/?g=fonts);
+ #appComments .comment-separator{
+    width:70%
+}
+#appComments.template-default.template-custom-lt .nb-box-2{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    width:100%;
+    height:auto;
+    margin:0 0 30px;
+    padding:16px 30px;
+    color:#fff;
+    background:#3858f5;
+    border-radius:8px
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .nb-box-2{
+        margin:0 0 10px;
+        padding:16px;
+        border-radius:0
+    }
+}
+#appComments.template-default.template-custom-lt .nb-box-2 i{
+    min-width:78px;
+    width:78px;
+    height:77px;
+    margin-right:40px;
+    background:transparent url(https://g.dcdn.lt/misc/comment-fe/img/discussion.8b4f7618.svg) 0 0 no-repeat
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .nb-box-2 i{
+        min-width:65px;
+        width:65px;
+        height:64px;
+        margin-right:16px;
+        background-size:contain
+    }
+}
+#appComments.template-default.template-custom-lt .nb-box-2 p{
+    margin:20px 0;
+    padding:0;
+    font:normal normal normal 15px/19px Inter
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .nb-box-2 p{
+        margin:0;
+        font:normal normal normal 13px/17px Inter
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .has-reply{
+    border-left:none
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .wa{
+    width:auto!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper ul.select-type{
+    padding:2px;
+    border-radius:25px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:0 0 20px;
+    padding:30px;
+    color:#0c1055;
+    background:#ebeefe;
+    -webkit-box-ordinal-group:3;
+    -ms-flex-order:2;
+    order:2
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer{
+        padding:16px
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer.mt20{
+    display:none!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer>div{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    max-width:394px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer i{
+    width:92px;
+    height:94px;
+    margin-right:36px;
+    background:transparent url(https://g.dcdn.lt/misc/comment-fe/img/subscriber-only-disclaimer.d2033fff.svg) 0 0 no-repeat
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer i{
+        min-width:86px;
+        width:86px;
+        height:92px;
+        margin-right:14px;
+        background-size:contain
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer h4{
+    margin:0 0 10px;
+    color:#040484;
+    font:normal normal 700 32px/40px Inter
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer h4{
+        margin:0 0 10px;
+        font:normal normal 700 22px/26px Inter
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer p{
+    margin:0;
+    color:#0c1055;
+    font:normal normal normal 15px/21px Inter
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer p{
+        font:normal normal normal 14px/18px Inter
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer a{
+    max-width:180px;
+    margin:15px 0 10px;
+    padding:11px 18px;
+    color:#0c1055;
+    font-size:16px;
+    font-weight:500;
+    text-align:center;
+    background-color:#1bdab5;
+    border-radius:25px;
+    cursor:pointer
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer a{
+        margin-bottom:0;
+        padding:8px 12px;
+        font-size:13px
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer.wide>div{
+    max-width:none
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .subscriber-only-disclaimer.wide i{
+    min-width:92px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .flex-container-outer{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .button-cancel{
+    position:absolute;
+    right:0;
+    top:-18px;
+    margin-bottom:0
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .flex-container{
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .flex-auto{
+    width:auto!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-avatar-wrapper{
+    margin-right:12px!important;
+    margin-bottom:12px!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-name{
+    margin-top:0!important;
+    margin-left:0!important;
+    border-radius:25px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-message{
+    padding-right:20px!important;
+    border-radius:25px!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-buttons{
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    text-align:right;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+    justify-content:space-between
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-buttons button{
+    display:inline-block!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-buttons .input-login{
+    position:relative;
+    top:0;
+    right:0;
+    padding:10px 25px;
+    border-radius:25px;
+    width:auto;
+    margin-top:12px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-buttons .input-read{
+    position:relative;
+    top:0;
+    right:0;
+    width:auto;
+    margin-left:12px;
+    padding:10px 25px;
+    border-radius:25px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input-buttons div.text-right{
+    position:relative
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .text-right{
+    display:block;
+    position:absolute;
+    left:0;
+    text-align:left;
+    line-height:12px;
+    padding-top:6px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .text-right .button-terms{
+    display:inline-block;
+    margin-left:3px;
+    padding-top:3px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .text-right-reg{
+    left:64px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .input .text-right-reg .button-terms{
+    display:block;
+    margin-left:0;
+    padding-top:3px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .comment-content div>span a{
+    font-size:13px
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .comment-reply .input{
+    margin-top:30px!important
+}
+#appComments.template-default.template-custom-lt .chat-wrapper .comment-reply .input .input-avatar-wrapper,#appComments.template-default.template-custom-lt .chat-wrapper.read-only .nb-box{
+    margin-bottom:0!important
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper.read-only .nb-box{
+        margin-left:12px;
+        margin-right:12px
+    }
+}
+#appComments.template-default.template-custom-lt .chat-wrapper.read-only .input-buttons{
+    -webkit-box-pack:end;
+    -ms-flex-pack:end;
+    justify-content:end
+}
+@media screen and (max-width:480px){
+    #appComments.template-default.template-custom-lt .chat-wrapper.read-only .input-buttons{
+        padding:0 12px!important
+    }
+}
+ .screen-lock{
+    overflow:hidden!important;
+    width:100%!important;
+    height:100vh!important
+}
+#appComments .comment-separator{
+    width:70%
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .has-reply .input,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input--reply,#appComments.template-default.template-custom-et-sticky .chat-wrapper .inputPlace{
+    position:-webkit-sticky;
+    position:sticky;
+    bottom:0;
+    z-index:99;
+    padding:8px 12px;
+    background-color:#fff
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .has-reply .input.inputPlace-sticky,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input--reply.inputPlace-sticky,#appComments.template-default.template-custom-et-sticky .chat-wrapper .inputPlace.inputPlace-sticky{
+    -webkit-box-shadow:0 -3px 5px -3px rgba(0,0,0,.2);
+    box-shadow:0 -3px 5px -3px rgba(0,0,0,.2)
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .has-reply .input,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input--reply{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    z-index:100;
+    -webkit-box-shadow:0 -3px 5px -3px rgba(0,0,0,.2);
+    box-shadow:0 -3px 5px -3px rgba(0,0,0,.2)
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input{
+    margin-bottom:0
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input .flex-container{
+    -webkit-box-align:end;
+    -ms-flex-align:end;
+    align-items:flex-end
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input__login-to-comment{
+    -ms-flex-item-align:center;
+    align-self:center;
+    width:auto;
+    font-size:14px;
+    color:#6e7179
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input__login-to-comment a{
+    text-transform:lowercase;
+    text-decoration:none;
+    color:#0372dd
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input input{
+    width:100%;
+    margin:0 0 6px;
+    min-height:38px
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input .input-message,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input textarea{
+    min-height:38px;
+    max-height:150px;
+    padding-top:8px;
+    padding-bottom:8px;
+    line-height:1.43;
+    color:#6e7179;
+    white-space:pre-wrap;
+    word-break:break-all;
+    overflow-wrap:break-word;
+    overflow:auto
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input .errors{
+    float:left;
+    margin-bottom:8px;
+    line-height:1.39;
+    font-size:12px
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input .input--error{
+    background-color:#fce5ed
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .input-avatar,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input-avatar img,#appComments.template-default.template-custom-et-sticky .chat-wrapper .input-avatar span{
+    width:38px;
+    height:38px
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .typeSelect{
+    top:auto;
+    bottom:55px
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .typeSelect:before{
+    top:auto;
+    bottom:-17px;
+    border-color:#dedfe0 transparent transparent
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .typeSelect:after{
+    top:auto;
+    bottom:-14px;
+    border-color:#fff transparent transparent
+}
+#appComments.template-default.template-custom-et-sticky .chat-wrapper .button-terms{
+    padding-top:8px
+}
+#appComments.template-default.template-custom-et-sticky .button-publish-circle{
+    width:22px;
+    height:38px;
+    padding:12px 0;
+    background:#fff url(https://g.dcdn.lt/misc/comment-fe/img/icon-send--blue.09ae563d.svg) 50% no-repeat;
+    background-size:22px 19px
+}
+#appComments.template-default.template-custom-et-sticky .button-cancel{
+    margin-bottom:14px
+}
+#appComments.template-default.template-custom-et-sticky #sticky-ident{
+    width:100%;
+    height:1px;
+    -webkit-box-ordinal-group:4;
+    -ms-flex-order:3;
+    order:3;
+    background-color:transparent
+}
+ .template-et-widget body{
+    line-height:normal
+}
+ #appComments,#appComments.template-default{
+    font-family:Roboto,sans-serif
+}
+#appComments.template-default .chat-wrapper .input-message,#appComments.template-default .chat-wrapper button,#appComments.template-default .chat-wrapper input,#appComments.template-default .chat-wrapper textarea{
+    font-family:Roboto,sans-serif!important
+}
+ ul.reactions-disabled li[data-v-88333692]{
+    cursor:default!important
+}
+ul.reactions li[data-v-88333692]{
+    cursor:pointer;
+    margin-right:5px!important
+}
+ul.reactions li .reaction-icon[data-v-88333692]{
+    margin-right:5px!important
+}
+ul.reactions li .reaction-cnt[data-v-88333692]{
+    display:block!important
+}
+ul.reactions li.reaction-total-cnt[data-v-88333692]{
+    display:none!important
+}
+ #deleteConfirmationModal .v--modal-box{
+    text-align:center;
+    padding:30px;
+    border-radius:10px
+}
+ #appComments{
+    font-weight:400;
+    width:100%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments .v--modal-block-scroll ::-webkit-scrollbar{
+    display:none
+}
+#appComments .v--modal-overlay{
+    padding:50px 0;
+    z-index:9999
+}
+#appComments .v--modal-box{
+    background-color:#fff
+}
+#appComments.template-default{
+    font-weight:400;
+    width:100%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments.template-default .mobile-show{
+    display:none!important
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .mobile-show{
+        display:block!important
+    }
+    #appComments.template-default .mobile-hide{
+        display:none!important
+    }
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .chat-page{
+        padding:20px 0
+    }
+    #appComments.template-default .article-title{
+        margin:0 0 15px 15px!important
+    }
+    #appComments.template-default .article-title a{
+        font-size:17px!important
+    }
+    #appComments.template-default .nb-box{
+        padding:15px!important;
+        font-size:13px!important;
+        margin-bottom:15px!important
+    }
+    #appComments.template-default .chat-wrapper .top-actions{
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:normal;
+        -ms-flex-direction:column;
+        flex-direction:column;
+        -webkit-box-align:start;
+        -ms-flex-align:start;
+        align-items:flex-start
+    }
+    #appComments.template-default .chat-wrapper .top-actions .v-select{
+        -webkit-box-ordinal-group:3;
+        -ms-flex-order:2;
+        order:2
+    }
+    #appComments.template-default .chat-wrapper .top-actions .select-type{
+        -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+        order:1;
+        margin:0 auto 15px;
+        width:100%
+    }
+    #appComments.template-default .chat-wrapper .top-actions .select-type li{
+        margin:0
+    }
+    #appComments.template-default .chat-wrapper .reply-comment{
+        padding:8px 15px
+    }
+    #appComments.template-default .chat-wrapper .comment-reply{
+        padding-left:7px
+    }
+    #appComments.template-default .chat-wrapper .input textarea.hide-placeholder::-webkit-input-placeholder{
+        color:transparent
+    }
+    #appComments.template-default .chat-wrapper .input textarea.hide-placeholder::-moz-placeholder{
+        color:transparent
+    }
+    #appComments.template-default .chat-wrapper .input textarea.hide-placeholder:-ms-input-placeholder{
+        color:transparent
+    }
+    #appComments.template-default .chat-wrapper .comment-content{
+        font-size:14px!important
+    }
+    #appComments.template-default .chat-wrapper .comment-actions ul{
+        margin:0 5px 0 0!important
+    }
+    #appComments.template-default .chat-wrapper .comment-actions ul:first-child{
+        margin:0 10px 0 0!important
+    }
+    #appComments.template-default .chat-wrapper .input input{
+        width:142px
+    }
+    #appComments.template-default .chat-wrapper .loadmore-reply{
+        width:85%!important
+    }
+    #appComments.template-default .chat-wrapper ul.reactions:hover{
+        margin:0!important
+    }
+    #appComments.template-default .chat-wrapper ul.reactions:hover li{
+        display:block;
+        margin-right:5px!important
+    }
+    #appComments.template-default .chat-wrapper ul.reactions:hover li .reaction-icon{
+        margin:0!important
+    }
+    #appComments.template-default .chat-wrapper ul.reactions:hover li .reaction-cnt{
+        text-align:center;
+        width:100%;
+        height:0!important
+    }
+    #appComments.template-default .chat-wrapper .comment-box .top-actions{
+        padding-bottom:0!important
+    }
+    #appComments.template-default .chat-wrapper .comment-box .select-type{
+        margin:0 auto 10px
+    }
+    #appComments.template-default .chat-wrapper .comment-box div.input{
+        margin-bottom:15px!important
+    }
+}
+#appComments.template-default #user-dcdb-login{
+    display:none
+}
+#appComments.template-default .chat-wrapper{
+    max-width:1200px;
+    width:100%;
+    margin:auto;
+    background:#fff
+}
+#appComments.template-default .chat-wrapper .selectMode{
+    width:100%;
+    text-align:right;
+    margin-bottom:20px
+}
+#appComments.template-default .chat-wrapper .input{
+    padding:0;
+    margin-bottom:50px
+}
+#appComments.template-default .chat-wrapper .input .input-message,#appComments.template-default .chat-wrapper .input input,#appComments.template-default .chat-wrapper .input textarea{
+    background:#f5f6f7
+}
+#appComments.template-default .chat-wrapper .input .input-message,#appComments.template-default .chat-wrapper .input textarea{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments.template-default .chat-wrapper .comment{
+    border-radius:0;
+    font-size:15px;
+    line-height:normal
+}
+#appComments.template-default .chat-wrapper .comment-body{
+    margin-left:54px;
+    width:calc(100% - 54px);
+    font-size:15px;
+    line-height:inherit;
+    min-height:44px
+}
+#appComments.template-default .chat-wrapper .comment-body p,#appComments.template-default .chat-wrapper .comment-body span{
+    font-size:15px;
+    line-height:inherit
+}
+#appComments.template-default .chat-wrapper .comment-anonymous.removed{
+    background:#dedfe0;
+    font-weight:700;
+    font-size:26px
+}
+#appComments.template-default .chat-wrapper .comment-avatar{
+    position:absolute;
+    margin-right:0
+}
+#appComments.template-default .chat-wrapper .comment-subject{
+    width:100%;
+    overflow:hidden
+}
+#appComments.template-default .chat-wrapper .comment-subject>span{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    float:left;
+    width:calc(100% - 180px)
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .chat-wrapper .comment-subject>span{
+        width:calc(100% - 27px)
+    }
+}
+#appComments.template-default .chat-wrapper .comment-actions .fade-enter-active,#appComments.template-default .chat-wrapper .comment-actions .fade-leave-active{
+    -webkit-transition-delay:.3s;
+    transition-delay:.3s
+}
+#appComments.template-default .chat-wrapper .comment-actions .fade-enter,#appComments.template-default .chat-wrapper .comment-actions .fade-leave-to{
+    -webkit-transition-delay:.3s;
+    transition-delay:.3s;
+    opacity:0
+}
+#appComments.template-default .chat-wrapper .comment .reaction img{
+    width:19px;
+    height:19px
+}
+#appComments.template-default .chat-wrapper .report{
+    position:relative;
+    top:0;
+    right:0;
+    float:right
+}
+#appComments.template-default .chat-wrapper .report-comment{
+    display:block;
+    font-weight:400
+}
+#appComments.template-default .chat-wrapper .report-comment span{
+    display:inline-block;
+    margin-top:2px;
+    font-size:14px
+}
+#appComments.template-default .chat-wrapper .report-comment:after{
+    margin:0 0 0 7px
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .chat-wrapper .report-comment span{
+        display:none
+    }
+}
+#appComments.template-default .chat-wrapper .reply-comment{
+    text-align:center
+}
+#appComments.template-default .chat-wrapper .content-window{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-flow:row wrap;
+    flex-flow:row wrap
+}
+#appComments.template-default .chat-wrapper .content-window.display-block{
+    display:block!important
+}
+#appComments.template-default .chat-wrapper .content-window.asChat{
+    overflow-y:auto
+}
+#appComments.template-default .chat-wrapper .content-window .inputPlace{
+    -webkit-box-ordinal-group:4;
+    -ms-flex-order:3;
+    order:3;
+    width:100%;
+    padding:0 12px
+}
+#appComments.template-default .chat-wrapper .content-window .inputPlace.withSideAd{
+    width:calc(100% - 324px - 48px)
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .chat-wrapper .content-window .inputPlace,#appComments.template-default .chat-wrapper .content-window .inputPlace.withSideAd{
+        width:100%
+    }
+}
+#appComments.template-default .chat-wrapper .comment-row{
+    position:relative;
+    width:100%;
+    -webkit-box-flex:1;
+    -ms-flex:1 1 0px;
+    flex:1 1 0;
+    padding:12px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments.template-default .chat-wrapper .comment-row.no-ads{
+    -ms-flex-preferred-size:100%;
+    flex-basis:100%
+}
+#appComments.template-default .chat-wrapper .comment-row.last-row{
+    -webkit-box-ordinal-group:2;
+    -ms-flex-order:1;
+    order:1
+}
+#appComments.template-default .chat-wrapper .comment-adPlace{
+    text-align:center
+}
+#appComments.template-default .chat-wrapper .comment-adPlace.ad-torn,#appComments.template-default .chat-wrapper .comment-adPlace.col-324{
+    width:324px;
+    -webkit-box-flex:0;
+    -ms-flex:0 0 auto;
+    flex:0 0 auto;
+    padding:12px
+}
+#appComments.template-default .chat-wrapper .comment-adPlace.ad-torn.last-ad,#appComments.template-default .chat-wrapper .comment-adPlace.col-324.last-ad{
+    -webkit-box-ordinal-group:3;
+    -ms-flex-order:2;
+    order:2
+}
+#appComments.template-default .chat-wrapper .comment-adPlace.ad-torn>div,#appComments.template-default .chat-wrapper .comment-adPlace.col-324>div{
+    position:-webkit-sticky;
+    position:sticky;
+    top:0
+}
+#appComments.template-default .chat-wrapper .comment-adPlace.col-wide{
+    width:100%;
+    margin-top:12px;
+    margin-bottom:12px;
+    -webkit-box-flex:0;
+    -ms-flex:0 0 auto;
+    flex:0 0 auto;
+    -ms-flex-preferred-size:100%;
+    flex-basis:100%;
+    padding:12px
+}
+#appComments.template-default .chat-wrapper .comment-adPlace.col-wide.last-ad{
+    -webkit-box-ordinal-group:5;
+    -ms-flex-order:4;
+    order:4
+}
+#appComments.template-default .chat-wrapper .comment .created-time{
+    margin:4px 0 24px
+}
+#appComments.template-default .chat-wrapper .comment-content{
+    position:relative;
+    line-height:22px
+}
+#appComments.template-default .chat-wrapper .comment-content p{
+    margin:0;
+    padding:0;
+    word-break:break-word;
+    white-space:pre-wrap
+}
+#appComments.template-default .chat-wrapper .comment-content p span.quoteTo{
+    font-weight:500
+}
+#appComments.template-default .chat-wrapper .comment-content #readmore{
+    position:absolute;
+    bottom:0;
+    text-align:right;
+    width:100%;
+    display:block;
+    font-weight:500;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:1.07;
+    letter-spacing:normal;
+    text-decoration:none;
+    color:#0372dd;
+    padding-top:14px;
+    background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,.5)),to(#fff));
+    background:linear-gradient(hsla(0,0%,100%,.5),#fff)
+}
+#appComments.template-default .chat-wrapper .comment-content #readmore:nth-child(2){
+    background:none;
+    margin-bottom:-12px
+}
+#appComments.template-default .chat-wrapper .comment-art-url a{
+    color:#0372dd;
+    text-decoration:none
+}
+#appComments.template-default .chat-wrapper .comment-art-url a:hover{
+    text-decoration:underline
+}
+#appComments.template-default .chat-wrapper .comment-reply{
+    position:relative;
+    padding-left:27px
+}
+#appComments.template-default .chat-wrapper .has-reply{
+    border-left:2px solid #dedfe0;
+    margin-left:22px
+}
+#appComments.template-default .chat-wrapper .has-reply>div:first-of-type{
+    margin-left:-22px
+}
+#appComments.template-default .chat-wrapper .has-reply .input{
+    padding-left:27px
+}
+#appComments.template-default .chat-wrapper .has-reply .comment-reply .input{
+    padding:0
+}
+#appComments.template-default .chat-wrapper .has-reply .comment-reply:last-child .comment{
+    border-bottom:1px solid #dedfe0;
+    margin-bottom:20px
+}
+#appComments.template-default .chat-wrapper .has-reply .comment-reply:last-child .comment-body{
+    border:none;
+    margin-bottom:0
+}
+#appComments.template-default .chat-wrapper .btn-loadmore{
+    margin:0;
+    font-size:13px;
+    color:#6e7179;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper .btn-loadmore:hover{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    color:#222;
+    background-color:#dedfe0
+}
+#appComments.template-default .chat-wrapper .loadmore-reply{
+    margin:0 auto 20px;
+    width:80%
+}
+#appComments.template-default .chat-wrapper .popper{
+    -webkit-transform:none!important;
+    transform:none!important;
+    top:-55px!important;
+    left:-55px!important
+}
+#appComments.template-default .chat-wrapper .popper__arrow{
+    margin-left:80px
+}
+#appComments.template-default .chat-wrapper .popper .reaction img{
+    width:34px;
+    height:34px
+}
+#appComments.template-default .chat-wrapper .popper .reaction.reacted:after{
+    content:"";
+    position:absolute;
+    display:block;
+    width:6px;
+    height:6px;
+    margin:6px 5px 0 0;
+    background:#0372dd;
+    border-radius:10px;
+    left:14px;
+    bottom:-10px
+}
+#appComments.template-default .chat-wrapper .popper ul{
+    padding:8px!important;
+    padding-bottom:12px!important
+}
+#appComments.template-default .chat-wrapper .popper ul li{
+    line-height:0
+}
+#appComments.template-default .chat-wrapper .reaction-btn{
+    min-width:60px;
+    color:#222;
+    font-weight:500
+}
+#appComments.template-default .chat-wrapper .reaction-btn:hover{
+    color:#6e7179;
+    cursor:pointer
+}
+#appComments.template-default .chat-wrapper ul.reactions li{
+    margin-right:-2px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper ul.reactions li .reaction-cnt{
+    margin:0;
+    display:none
+}
+#appComments.template-default .chat-wrapper ul.reactions li.reaction-total-cnt{
+    margin-left:5px
+}
+#appComments.template-default .chat-wrapper ul.reactions:hover li{
+    margin-right:5px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper ul.reactions:hover li .reaction-icon{
+    margin-right:5px
+}
+#appComments.template-default .chat-wrapper ul.reactions:hover li .reaction-cnt{
+    display:block
+}
+#appComments.template-default .chat-wrapper ul.reactions:hover li.reaction-total-cnt{
+    display:none
+}
+#appComments.template-default .chat-wrapper ul.select-type{
+    padding:3px 4px;
+    background-color:#dedfe0;
+    border-radius:30px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:400px
+}
+#appComments.template-default .chat-wrapper ul.select-type li{
+    position:relative;
+    text-align:center;
+    display:inline-block;
+    width:50%;
+    margin:0;
+    color:#6e7179;
+    vertical-align:middle
+}
+#appComments.template-default .chat-wrapper ul.select-type li .select-type-text{
+    position:relative;
+    display:block;
+    width:100%;
+    z-index:1;
+    padding:5px 0
+}
+#appComments.template-default .chat-wrapper ul.select-type li:first-of-type.is-active + li:before{
+    left:-100%
+}
+#appComments.template-default .chat-wrapper ul.select-type li:last-child:before{
+    background-color:#fff;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:30px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper ul.select-type li:hover{
+    color:#222
+}
+#appComments.template-default .chat-wrapper ul.select-type li.is-active{
+    font-weight:500;
+    color:#222
+}
+#appComments.template-default .chat-wrapper .input-message,#appComments.template-default .chat-wrapper input,#appComments.template-default .chat-wrapper textarea{
+    border:1px solid #dedfe0
+}
+#appComments.template-default .chat-wrapper .input input{
+    margin:12px 0 12px 52px;
+    min-width:40%
+}
+#appComments.template-default .chat-wrapper .input{
+    position:relative
+}
+#appComments.template-default .chat-wrapper .input-avatar{
+    position:relative;
+    width:44px;
+    height:44px;
+    border-radius:50px;
+    margin-right:8px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper .input-avatar:hover{
+    cursor:pointer
+}
+#appComments.template-default .chat-wrapper .input-avatar:hover span{
+    background-color:#d1d2d4
+}
+#appComments.template-default .chat-wrapper .input-avatar .avatar-arrow{
+    position:absolute;
+    width:18px;
+    height:18px;
+    -webkit-box-shadow:1px 1.7px 2px 0 rgba(0,0,0,.15);
+    box-shadow:1px 1.7px 2px 0 rgba(0,0,0,.15);
+    background-color:#fff;
+    border-radius:20px;
+    bottom:0;
+    right:-5px
+}
+#appComments.template-default .chat-wrapper .input-avatar .avatar-arrow:before{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    content:"";
+    position:absolute;
+    border:solid #0372dd;
+    border-width:2px 2px 0 0;
+    height:5px;
+    width:5px;
+    top:5px;
+    left:5px;
+    -webkit-transform:rotate(135deg);
+    transform:rotate(135deg);
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+#appComments.template-default .chat-wrapper .input-avatar .avatar-arrow.open:before{
+    content:"";
+    top:7px;
+    -webkit-transform:scaleX(-1) rotate(315deg);
+    transform:scaleX(-1) rotate(315deg)
+}
+#appComments.template-default .chat-wrapper .input-avatar img,#appComments.template-default .chat-wrapper .input-avatar span{
+    display:block;
+    width:44px;
+    height:44px;
+    border-radius:50px;
+    text-align:center;
+    line-height:44px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .chat-wrapper .input-buttons{
+    position:absolute;
+    top:14px;
+    right:15px
+}
+#appComments.template-default .chat-wrapper .input-buttons .input-login{
+    position:relative;
+    display:block;
+    top:0;
+    right:0
+}
+#appComments.template-default .chat-wrapper .input-login{
+    position:absolute;
+    top:5px;
+    right:5px;
+    font-size:12px;
+    font-weight:500;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    padding:10px 18px;
+    background-color:#0372dd;
+    border-radius:50px;
+    text-decoration:none
+}
+#appComments.template-default .chat-wrapper .input-login:hover{
+    background-color:#0365c4
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .chat-wrapper .input-login{
+        top:20px
+    }
+}
+#appComments.template-default .chat-wrapper .input-read{
+    position:relative;
+    display:block;
+    margin-top:12px;
+    font-size:12px;
+    font-weight:500;
+    text-align:center;
+    color:#6e7179;
+    padding:10px 18px;
+    border-radius:50px;
+    text-decoration:none;
+    border:1px solid #dedfe0;
+    background-color:#fff
+}
+#appComments.template-default .chat-wrapper .input-read:hover{
+    color:#222
+}
+#appComments.template-default .chat-wrapper .typeSelect{
+    z-index:99;
+    position:absolute;
+    top:55px;
+    left:-4px;
+    min-width:140px;
+    border-radius:4px;
+    border:1px solid #dedfe0;
+    background-color:#fff;
+    -webkit-box-shadow:1px 1px 5px 0 rgba(0,0,0,.19);
+    box-shadow:1px 1px 5px 0 rgba(0,0,0,.19);
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d
+}
+#appComments.template-default .chat-wrapper .typeSelect:after,#appComments.template-default .chat-wrapper .typeSelect:before{
+    content:"";
+    display:block;
+    position:absolute;
+    left:35px;
+    width:0;
+    height:0;
+    border-style:solid
+}
+#appComments.template-default .chat-wrapper .typeSelect:after{
+    top:-14px;
+    left:36px;
+    border-color:transparent transparent #fff;
+    border-width:7px
+}
+#appComments.template-default .chat-wrapper .typeSelect:before{
+    top:-17px;
+    border-color:transparent transparent #dedfe0;
+    border-width:8px
+}
+#appComments.template-default .chat-wrapper .typeSelect ul{
+    margin:0;
+    padding:16px;
+    list-style:none
+}
+#appComments.template-default .chat-wrapper .typeSelect ul+ul{
+    padding-top:0
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li div{
+    display:inline-block;
+    color:#6e7179;
+    text-decoration:none;
+    font-size:14px;
+    cursor:pointer
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li.active .option,#appComments.template-default .chat-wrapper .typeSelect ul li:hover .option{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    background-color:#0372dd;
+    border:1px solid #0372dd
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li .option{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:8px;
+    background-color:#fff;
+    border:1px solid #b8babe;
+    margin:5px 12px 0 0
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li.disabled:hover .option{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    background-color:inherit;
+    border:1px solid #b8babe
+}
+#appComments.template-default .chat-wrapper .typeSelect ul li.disabled div{
+    color:#b8babe;
+    cursor:default
+}
+#appComments.template-default .chat-wrapper .typeSelect ul.logout li div{
+    text-align:center;
+    width:100%
+}
+#appComments.template-default .chat-wrapper .slide-fade-enter-active,#appComments.template-default .chat-wrapper .slide-fade-leave-active{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    height:79px!important
+}
+#appComments.template-default .chat-wrapper .slide-fade-enter,#appComments.template-default .chat-wrapper .slide-fade-leave-to{
+    -webkit-transform:translateX(0);
+    transform:translateX(0);
+    height:0!important
+}
+#appComments.template-default .chat-wrapper .preloaderDiv{
+    position:relative;
+    margin:0;
+    padding:0;
+    background-color:#f5f6f7;
+    width:100%;
+    min-height:250px
+}
+#appComments.template-default .chat-wrapper .preloaderSmall{
+    position:relative;
+    margin:0;
+    padding:0
+}
+#appComments.template-default .chat-wrapper .preloaderSmall #preloader{
+    position:relative;
+    height:30px;
+    width:30px;
+    border-radius:30px;
+    top:0;
+    left:0
+}
+#appComments.template-default .chat-wrapper .preloaderSmall #preloader:after{
+    top:3px;
+    left:3px;
+    width:20px;
+    height:20px;
+    border-radius:20px
+}
+#appComments.template-default .chat-wrapper .preloaderSmall #preloader:before{
+    top:0;
+    left:0;
+    width:30px;
+    height:30px;
+    border-radius:30px
+}
+#appComments.template-default .chat-wrapper #preloader{
+    position:absolute;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    margin:0;
+    padding:0;
+    width:50px;
+    height:50px;
+    border:2px solid hsla(0,0%,100%,.2);
+    border-radius:50px;
+    top:calc(50% - 25px);
+    left:calc(50% - 25px);
+    -webkit-animation-name:spinner .4s linear infinite;
+    animation-name:spinner .4s linear infinite;
+    -webkit-animation:spinner .4s linear infinite;
+    -moz-animation:spinner .4s linear infinite
+}
+#appComments.template-default .chat-wrapper #preloader:before{
+    position:absolute;
+    margin:0;
+    padding:0;
+    content:"";
+    display:block;
+    background-color:rgba(0,0,0,.2);
+    width:80px;
+    height:80px;
+    border-radius:80px;
+    top:-15px;
+    left:-15px;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+#appComments.template-default .chat-wrapper #preloader:after{
+    position:absolute;
+    margin:0;
+    padding:0;
+    content:"";
+    width:50px;
+    height:50px;
+    border-radius:50px;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+    border-left:2px solid #fff;
+    border-right:2px solid transparent;
+    top:-2px;
+    left:-2px;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box
+}
+@-webkit-keyframes spinner{
+    0%{
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)
+    }
+    to{
+        -webkit-transform:rotate(1turn);
+        transform:rotate(1turn)
+    }
+}
+@keyframes spinner{
+    0%{
+        -webkit-transform:rotate(0deg);
+        transform:rotate(0deg)
+    }
+    to{
+        -webkit-transform:rotate(1turn);
+        transform:rotate(1turn)
+    }
+}
+#appComments.template-default .chat-wrapper .text-disabled{
+    color:#b8babe
+}
+#appComments.template-default .chat-wrapper .quoteTo{
+    color:#0372dd
+}
+#appComments.template-default .chat-wrapper .input-box .input-message,#appComments.template-default .chat-wrapper .input-box textarea{
+    border-radius:17px;
+    padding-right:190px
+}
+#appComments.template-default .chat-wrapper .input-box button{
+    text-align:center;
+    width:100%
+}
+#appComments.template-default .chat-wrapper .comment-box .p12{
+    padding:0 12px!important
+}
+#appComments.template-default .chat-wrapper .comment-box .input{
+    margin-top:0!important;
+    margin-bottom:15px!important
+}
+#appComments.template-default .chat-wrapper .comment-box .input input{
+    margin:0 0 12px 52px
+}
+#appComments.template-default .chat-wrapper .comment-box .top-actions{
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #dedfe0
+}
+#appComments.template-default .chat-wrapper .comment-box .comment-row{
+    padding:0 12px
+}
+#appComments.template-default .chat-wrapper .comment-box .teaser-comments{
+    margin-bottom:20px
+}
+#appComments.template-default .chat-wrapper .comment-box .teaser-comments .comment{
+    border-bottom:1px solid #dedfe0;
+    padding-bottom:20px;
+    margin-bottom:20px
+}
+#appComments.template-default .chat-wrapper .comment-box .teaser-comments .comment-avatar{
+    outline:none;
+    position:relative
+}
+#appComments.template-default .chat-wrapper .comment-box .teaser-comments .comment-body{
+    width:100%;
+    border-bottom:none;
+    margin-bottom:0;
+    margin-left:15px
+}
+#appComments.template-default .chat-wrapper .comment-box .teaser-comments .comment:last-child{
+    border:none;
+    margin-bottom:0;
+    padding-bottom:0
+}
+#appComments.template-default .chat-wrapper .hr-light{
+    margin:15px 0;
+    border-top:1px solid #dedfe0
+}
+#appComments.template-default .chat-wrapper .button-add{
+    width:270px!important;
+    text-align:center;
+    padding:15px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin:auto;
+    display:block;
+    color:#fff;
+    background-color:#0372dd;
+    margin-bottom:15px
+}
+#appComments.template-default .chat-wrapper .button-read{
+    display:block;
+    color:#1c81e1;
+    font-size:14px;
+    text-align:center;
+    text-decoration:none
+}
+#appComments.template-default .chat-wrapper .button-terms{
+    display:inline-block;
+    font-size:12px;
+    color:#b8babe;
+    padding-top:15px
+}
+#appComments.template-default .chat-wrapper a.button-terms{
+    margin-left:3px;
+    text-decoration:underline;
+    cursor:pointer
+}
+#appComments.template-default .chat-wrapper .text-right{
+    text-align:right
+}
+#appComments.template-default .chat-wrapper .text-center{
+    text-align:center
+}
+#appComments.template-default .chat-wrapper .relative{
+    position:relative
+}
+#appComments.template-default .chat-wrapper .comment-separator{
+    width:100%
+}
+#appComments.template-default .uc-header{
+    padding:14px 24px;
+    background-color:#f5f6f7
+}
+#appComments.template-default .uc-header.flex-container{
+    -webkit-box-pack:start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments.template-default .uc-header .comment-anonymous,#appComments.template-default .uc-header .comment-avatar{
+    outline:none;
+    width:52px;
+    height:52px
+}
+#appComments.template-default .uc-header .comment-anonymous img,#appComments.template-default .uc-header .comment-avatar img{
+    width:52px;
+    height:52px
+}
+#appComments.template-default .uc-body{
+    padding:24px
+}
+#appComments.template-default .uc-body .comment{
+    margin-bottom:20px
+}
+#appComments.template-default .uc-body .comment-body{
+    padding-bottom:20px
+}
+#appComments.template-default .uc-title{
+    font-size:16px;
+    font-weight:500;
+    font-style:normal;
+    font-stretch:normal;
+    text-align:center;
+    color:#222;
+    margin-bottom:30px
+}
+#appComments.template-default .uc .comment-art-url{
+    margin-top:20px;
+    font-weight:500
+}
+#appComments.template-default .uc .pagination{
+    padding:0;
+    margin:0 0 30px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    list-style:none
+}
+#appComments.template-default .uc .pagination li{
+    margin:0 4px
+}
+#appComments.template-default .uc .pagination li a{
+    display:block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border-radius:10px;
+    background-color:#f5f6f7;
+    font-size:12px;
+    text-align:center;
+    color:#777b85;
+    outline:none
+}
+#appComments.template-default .uc .pagination li.active a{
+    background-color:#0372dd;
+    color:#fff
+}
+#appComments.template-default .article-title{
+    margin:0 0 30px 30px
+}
+#appComments.template-default .article-title a{
+    font-size:34px;
+    font-weight:500;
+    font-style:normal;
+    font-stretch:normal;
+    line-height:normal;
+    letter-spacing:normal;
+    text-align:left;
+    color:#222;
+    text-decoration:none
+}
+#appComments.template-default .nb-box{
+    padding:20px;
+    border-radius:8px;
+    background-color:#f5f6f7;
+    font-size:14px;
+    color:#6e7179;
+    margin-bottom:30px
+}
+#appComments.template-default .flex-container{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:end;
+    -ms-flex-pack:end;
+    justify-content:flex-end;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    width:100%;
+    float:none
+}
+#appComments.template-default .flex-center{
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+#appComments.template-default .w-100{
+    position:relative;
+    width:100%
+}
+#appComments.template-default .button-publish-circle{
+    width:44px;
+    height:44px;
+    overflow:hidden;
+    margin-left:8px;
+    -webkit-transition:all .1s;
+    transition:all .1s
+}
+#appComments.template-default .button-publish-circle:hover{
+    background-color:#0365c4
+}
+#appComments.template-default .button-cancel{
+    float:right;
+    color:#b8babe;
+    -webkit-transition:.2s;
+    transition:.2s;
+    text-transform:uppercase;
+    font-size:10px;
+    margin-bottom:14px;
+    background-color:transparent
+}
+#appComments.template-default .v-select{
+    width:134px;
+    height:30px;
+    border-radius:4px;
+    background-color:#f5f6f7
+}
+#appComments.template-default .v-select:hover .open-indicator{
+    -webkit-transition:all .25s;
+    transition:all .25s;
+    -webkit-transform:translateY(.125rem) rotate(135deg);
+    transform:translateY(.125rem) rotate(135deg)
+}
+#appComments.template-default .v-select a{
+    color:#6e7179
+}
+#appComments.template-default .v-select button.clear{
+    display:none
+}
+#appComments.template-default .v-select .dropdown-toggle{
+    border:none
+}
+#appComments.template-default .v-select .dropdown-toggle input{
+    padding:0
+}
+#appComments.template-default .v-select .dropdown-menu{
+    border-radius:4px;
+    border:1px solid #dedfe0;
+    overflow-y:hidden!important
+}
+#appComments.template-default .v-select .open-indicator{
+    -webkit-transform:rotate(135deg);
+    transform:rotate(135deg);
+    height:8px;
+    width:8px;
+    position:absolute;
+    top:10px;
+    right:12px
+}
+#appComments.template-default .v-select .open-indicator:before{
+    border-color:#0372dd;
+    border-width:2px 2px 0 0;
+    height:8px;
+    width:8px;
+    -webkit-transform:rotate(0);
+    transform:rotate(0)
+}
+#appComments.template-default .v-select.open .open-indicator{
+    -webkit-transform:scaleX(-1) rotate(315deg);
+    transform:scaleX(-1) rotate(315deg);
+    top:12px
+}
+#appComments.template-default .v-select.open .open-indicator:before{
+    -webkit-transform:rotate(0);
+    transform:rotate(0)
+}
+#appComments.template-default .v-select .active a,#appComments.template-default .v-select .highlight a{
+    background:none;
+    color:#6e7179
+}
+#appComments.template-default .v-select li a{
+    color:#6e7179
+}
+#appComments.template-default .v-select li.active .option,#appComments.template-default .v-select li:hover .option{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    background-color:#0372dd;
+    border:1px solid #0372dd
+}
+#appComments.template-default .v-select li .option{
+    -webkit-transition:all .1s;
+    transition:all .1s;
+    display:block;
+    float:left;
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    background-color:#fff;
+    border:1px solid #b8babe;
+    margin:5px 12px 0 0
+}
+#appComments.template-default .v-select .selected-tag{
+    margin:6px 2px 0
+}
+#appComments.template-default .mb-20{
+    margin-bottom:20px!important
+}
+#appComments.template-default .p12{
+    padding:12px!important
+}
+#appComments.template-default .p12:empty{
+    display:none!important
+}
+#appComments.template-default .ptb-0{
+    padding-top:0!important;
+    padding-bottom:0!important
+}
+#appComments.template-default .p0{
+    padding:0!important
+}
+#appComments.template-default .invisible{
+    visibility:hidden
+}
+#appComments.template-default .inline-block{
+    display:inline-block!important
+}
+ @font-face{
+    font-family:fontello;
+    src:url(https://g.dcdn.lt/misc/comment-fe/fonts/fontello.0fc1cafd.eot);
+    src:url(https://g.dcdn.lt/misc/comment-fe/fonts/fontello.0fc1cafd.eot#iefix) format("embedded-opentype"),url(data:font/woff2;
+    base64,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) format("woff2"),url(data:application/font-woff;
+    base64,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) format("woff"),url(https://g.dcdn.lt/misc/comment-fe/fonts/fontello.c242acf1.ttf) format("truetype"),url(https://g.dcdn.lt/misc/comment-fe/img/fontello.f03df69a.svg#fontello) format("svg");
+    font-weight:400;
+    font-style:normal
+}
+[class*=" icon-"]:before,[class^=icon-]:before{
+    font-family:fontello;
+    font-style:normal;
+    font-weight:400;
+    speak:none;
+    display:inline-block;
+    text-decoration:inherit;
+    width:1em;
+    margin-right:.2em;
+    text-align:center;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1em;
+    margin-left:.2em;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+.icon-thumbs-up:before{
+    content:"\E800"
+}
+.icon-thumbs-down:before{
+    content:"\E801"
+}
+.icon-attention:before{
+    content:"\E802"
+}
+.icon-reply:before{
+    content:"\E803"
+}
+#app-settings input,#cookie-info{
+    border:1px solid #b8babe
+}
+#appComments{
+    font-family:Helvetica,sans-serif;
+    color:#222;
+    line-height:normal
+}
+#appComments .as-link,#appComments button{
+    cursor:pointer
+}
+#appComments .input-message,#appComments button,#appComments input,#appComments textarea{
+    line-height:normal;
+    font-size:14px;
+    border-radius:30px;
+    border:none;
+    padding:12px 20px
+}
+#appComments .input-message:focus,#appComments button:focus,#appComments input:focus,#appComments textarea:focus{
+    outline:none
+}
+#appComments .title{
+    text-align:center;
+    margin:0;
+    padding:2rem 0
+}
+#appComments #user-dcdb-login{
+    width:100%;
+    float:left;
+    margin-bottom:.5rem
+}
+#appComments .input .input-message,#appComments .input button,#appComments .input input,#appComments .input textarea{
+    font-size:14px
+}
+#appComments .input input{
+    display:block;
+    margin:1rem 0;
+    min-height:42px;
+    padding:0 20px
+}
+#appComments .input input:focus{
+    outline:none
+}
+#appComments .input .input-message,#appComments .input textarea{
+    display:block;
+    width:100%;
+    min-height:74px;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius:15px
+}
+#appComments .input .button-publish{
+    display:inline-block;
+    margin:1rem 0;
+    width:15rem;
+    background-color:#1c81e1;
+    color:#fff
+}
+#appComments .input .button-publish:disabled{
+    opacity:.5;
+    cursor:wait!important
+}
+#appComments .input .errors{
+    color:#e6004e;
+    padding:0;
+    margin:0 0 12px 52px;
+    font-size:14px
+}
+#appComments .input .errors li{
+    list-style:none
+}
+#appComments .top-actions{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    margin-bottom:20px;
+    padding-bottom:20px;
+    border-bottom:4px solid #dedfe0;
+    font-size:14px;
+    color:#b8babe
+}
+#appComments .top-actions .select-type{
+    list-style:none;
+    margin:0;
+    margin-left:auto;
+    padding:0
+}
+#appComments .top-actions .select-type li{
+    display:inline-block;
+    margin:0 10px
+}
+#appComments .top-actions .select-type li .type-cnt{
+    color:#e6004e
+}
+#appComments .btn-loadmore{
+    border-radius:10rem;
+    padding:10px 0;
+    font-size:16px;
+    margin:1rem .5rem;
+    background-color:#f5f6f7;
+    font-size:12px;
+    width:100%
+}
+#appComments .sorting{
+    margin:0;
+    padding:.5rem;
+    padding-bottom:0
+}
+#appComments .sorting li{
+    display:inline-block;
+    margin-right:1rem;
+    font-size:12px;
+    cursor:pointer
+}
+#appComments .slide-fade-enter-active,#appComments .slide-fade-leave-active{
+    -webkit-transition:all .5s;
+    transition:all .5s
+}
+#appComments .slide-fade-enter,#appComments .slide-fade-leave-to{
+    -webkit-transform:translateX(20px);
+    transform:translateX(20px);
+    opacity:0
+}
+#appComments .content-window{
+    scroll-behavior:smooth!important
+}
+#appComments .button-publish-circle{
+    background:#1c81e1 url(https://g.dcdn.lt/misc/comment-fe/img/icon-send.a15cfc3b.svg) 13px no-repeat
+}
+#appComments .button-publish-circle:disabled{
+    opacity:.5;
+    cursor:wait!important
+}
+#appComments .as-widget{
+    position:fixed;
+    bottom:2.5rem;
+    right:1rem;
+    width:25rem;
+    z-index:99999
+}
+#appComments .as-widget .chat-wrapper{
+    position:relative;
+    -webkit-box-shadow:0 0 5px 0 rgba(0,0,0,.3);
+    box-shadow:0 0 5px 0 rgba(0,0,0,.3);
+    padding:.5rem;
+    background-color:#f5f6f7;
+    -webkit-transition:all .3s;
+    transition:all .3s
+}
+#appComments .as-widget .chat-wrapper .comment{
+    background-color:#fff;
+    padding:.5rem;
+    margin-bottom:0
+}
+#appComments .as-widget .chat-wrapper .comment .created-time{
+    margin-bottom:1rem
+}
+#appComments .as-widget .chat-wrapper .comment-actions{
+    margin-bottom:0
+}
+#appComments .as-widget .chat-wrapper .comment-body{
+    border:none
+}
+#appComments .as-widget .chat-wrapper .comment-avatar{
+    outline:none
+}
+#appComments .as-widget .chat-wrapper .content-window{
+    height:20rem;
+    overflow-y:scroll
+}
+#appComments .as-widget .chat-wrapper .input{
+    margin-top:.5rem;
+    padding-top:.5rem;
+    border-top:1px solid #dedfe0
+}
+#appComments .as-widget .chat-wrapper .input input{
+    margin:.5rem 0;
+    display:inline-block;
+    width:50%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box
+}
+#appComments .as-widget .chat-wrapper .input .button-publish{
+    display:block;
+    margin:.5rem 0;
+    width:100%;
+    background-color:#1c81e1;
+    color:#fff
+}
+#appComments .as-widget .report-comment{
+    font-size:12px
+}
+#appComments .as-widget .comment{
+    margin-top:.5rem
+}
+#appComments .as-widget .btn-loadmore{
+    width:100%;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0
+}
+#appComments .as-widget .close-button{
+    position:absolute;
+    background:#1c81e1 url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAfCAMAAACxiD++AAAALVBMVEVMaXH///////////////////////////////////////////////////////9xAJ22AAAADnRSTlMAA2eukqEIxIZ0u/4LDRkC+/sAAACrSURBVCjPhdNbDoQgEETREhVfyP6XO9DoNGCX8iW5h4QQGxhmB7LcPCD1eBDhjphEWCIRqcclACcR0s/8ZQvtRcROuKgdco9WSA+6F7Hpfut6L549iV1F7nvob63C7oC/hHRvvVwRvF/ipd+Cd2DNYP3oLyL3ceRCuvdUSM+/GBF3Z0K7Lepuianpl5jaPg/1iTQMlXj2Vli9FnZXwfpflAEEEXmgHOuQwf8BrGYMyzdCEFgAAAAASUVORK5CYII=) 50% no-repeat;
+    background-size:15px;
+    top:-20px;
+    right:-5px;
+    z-index:99;
+    width:30px;
+    height:30px;
+    border-radius:10rem;
+    color:#fff;
+    -webkit-box-shadow:0 0 5px 0 rgba(0,0,0,.5);
+    box-shadow:0 0 5px 0 rgba(0,0,0,.5)
+}
+#appComments .as-widget .open-button{
+    position:fixed;
+    background:#1c81e1 url(https://g.dcdn.lt/misc/comment-fe/img/chat.63c1a234.png) 50% no-repeat;
+    background-size:45px;
+    bottom:80px;
+    right:80px;
+    z-index:99;
+    width:55px;
+    height:55px;
+    border-radius:10rem;
+    background-color:#1c81e1;
+    color:#fff;
+    text-align:center;
+    -webkit-box-shadow:1px 1px 3px rgba(0,0,0,.2);
+    box-shadow:1px 1px 3px rgba(0,0,0,.2)
+}
+#appComments .as-widget .open-button .new-comments-cnt{
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    border-radius:10rem;
+    width:22px;
+    height:22px;
+    background:#e6004e;
+    color:#fff;
+    text-align:center;
+    margin:auto;
+    font-size:12px;
+    font-weight:500
+}
+#appComments .comment{
+    position:relative;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    border-radius:.3rem;
+    font-size:14px
+}
+#appComments .comment-subject{
+    font-weight:500;
+    font-size:16px
+}
+#appComments .comment-avatar{
+    width:44px;
+    height:44px;
+    margin-right:10px;
+    outline:4px solid #fff
+}
+#appComments .comment-avatar img,#appComments .comment-avatar span{
+    display:block;
+    width:44px;
+    height:44px;
+    border-radius:10rem;
+    text-align:center;
+    line-height:44px;
+    font-size:18px;
+    color:#fff;
+    text-transform:uppercase
+}
+#appComments .comment-body{
+    width:100%;
+    border-bottom:1px solid #dedfe0;
+    margin-bottom:20px
+}
+#appComments .comment-body p{
+    margin-top:0
+}
+#appComments .comment .delete-button{
+    position:relative;
+    color:#b8babe;
+    margin-left:1rem;
+    background:none
+}
+#appComments .comment .delete-button:hover{
+    color:#e6004e
+}
+#appComments .comment-actions{
+    position:relative;
+    margin-top:1rem;
+    font-size:14px;
+    margin-bottom:20px;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+#appComments .comment-actions .reply-comment{
+    margin-left:auto
+}
+#appComments .comment-actions .updown-icons i{
+    width:21px;
+    height:21px;
+    background-color:#dedfe0;
+    display:inline-block;
+    color:#fff;
+    border-radius:10rem;
+    font-size:14px;
+    text-align:center;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments .comment-actions .updown-icons i.icon-thumbs-up:before{
+    line-height:20px
+}
+#appComments .comment-actions .updown-icons i:before{
+    line-height:21px
+}
+#appComments .comment-actions:after{
+    content:"";
+    clear:both;
+    display:block
+}
+#appComments .comment-actions ul{
+    margin:0 25px 0 0!important;
+    padding:0!important;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+#appComments .comment-actions ul li{
+    list-style-type:none;
+    display:inline-block;
+    margin-right:5px;
+    color:#b8babe
+}
+#appComments .comment-actions ul li:last-child{
+    margin:0
+}
+#appComments .comment .delete-comment,#appComments .comment .report-comment,#appComments .comment .thumb-down,#appComments .comment .thumb-up{
+    position:relative;
+    display:inline-block;
+    color:#b8babe;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments .comment .delete-comment.as-link,#appComments .comment .report-comment.as-link,#appComments .comment .thumb-down.as-link,#appComments .comment .thumb-up.as-link{
+    z-index:99
+}
+#appComments .comment .thumb-up.as-link:hover i,#appComments .comment .thumb-up.voted i{
+    background-color:#43bdfb
+}
+#appComments .comment .thumb-down.as-link:hover i,#appComments .comment .thumb-down.voted i{
+    background-color:#e6004e
+}
+#appComments .comment .report{
+    position:absolute;
+    top:.5rem;
+    right:.5rem;
+    font-size:12px
+}
+#appComments .comment .report-comment i{
+    margin-right:0
+}
+#appComments .comment .report-comment.as-link:hover,#appComments .comment .report-comment.voted i:before{
+    color:#e6004e
+}
+#appComments .comment .reply-comment{
+    float:right;
+    font-weight:500;
+    padding:8px 30px;
+    border-radius:10rem;
+    border:1px solid #dedfe0;
+    font-size:12px;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments .comment .reply-comment:hover{
+    background-color:#f5f6f7
+}
+#appComments .comment .created-time{
+    font-size:12px;
+    color:#b8babe;
+    margin-bottom:24px
+}
+#appComments .comment .reaction{
+    position:relative;
+    -webkit-transition:.2s;
+    transition:.2s;
+    color:#222
+}
+#appComments .comment .reaction img{
+    width:25px;
+    height:25px;
+    -webkit-transition:.2s;
+    transition:.2s;
+    display:inline-block
+}
+#appComments .comment .reaction.as-link{
+    z-index:99
+}
+#appComments .comment .reaction span{
+    display:inline-block;
+    color:#b8babe
+}
+#appComments .comment .popper{
+    position:absolute;
+    padding-bottom:10px;
+    z-index:9;
+    margin:0;
+    padding:0;
+    border:0;
+    border-radius:10rem;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    outline:0;
+    font-weight:inherit;
+    font-style:inherit;
+    font-size:100%;
+    -webkit-text-size-adjust:100%;
+    font-family:inherit;
+    vertical-align:baseline;
+    background:transparent
+}
+#appComments .comment .popper__arrow{
+    top:0!important;
+    position:relative!important;
+    width:0!important;
+    height:0!important;
+    border-style:solid!important;
+    border-width:7px 7.5px 0!important;
+    border-color:#ebf4ff transparent transparent!important;
+    margin:auto!important
+}
+#appComments .comment .popper ul{
+    margin:0!important;
+    background:#ebf4ff;
+    padding:5px 10px 3px!important;
+    border-radius:10rem
+}
+#appComments .comment .popper ul li{
+    vertical-align:middle;
+    margin:0 3px
+}
+#appComments .comment .popper ul li img:hover{
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2)
+}
+#appComments #comment_temp{
+    position:relative
+}
+#appComments #comment_temp:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+@media screen and (max-width:480px){
+    #appComments.template-default .reply-comment{
+        background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-reply.964da8f4.svg) 50% no-repeat;
+        background-size:22px;
+        width:22px;
+        height:20px;
+        padding:0!important;
+        color:transparent;
+        font-size:0;
+        border:none
+    }
+    #appComments.template-default .reply-comment:hover{
+        background-color:transparent
+    }
+    #appComments.template-default .reply-comment.quote-comment{
+        background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-reply-all.8101b149.svg) 50% no-repeat;
+        background-size:26px;
+        width:26px
+    }
+}
+#appComments.template-default .report-comment:after{
+    content:"";
+    position:relative;
+    display:block;
+    float:right;
+    width:20px;
+    height:20px;
+    margin:-2px 0 0 7px;
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-sobimatu.bc92b3d4.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .report-comment.voted:after,#appComments.template-default .report-comment:hover:after{
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-sobimatu-red.26b2ae8e.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .comment-anonymous,#appComments.template-default .input-avatar span{
+    background:#dedfe0 url(https://g.dcdn.lt/misc/comment-fe/img/icon-anonymous.2106051c.svg) 50% no-repeat
+}
+#appComments.template-default .comment-anonymous.removed{
+    background:#dedfe0 url(https://g.dcdn.lt/misc/comment-fe/img/icon-trash.f651e2ef.svg) 50% no-repeat!important;
+    background-size:20px!important
+}
+#appComments.template-default .delete-button{
+    position:relative;
+    font-size:12px;
+    margin:0;
+    padding:0;
+    background:none
+}
+#appComments.template-default .delete-button:after{
+    content:"";
+    position:relative;
+    display:block;
+    float:right;
+    width:17px;
+    height:18px;
+    margin:-2px 0 0 7px;
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-trash.f651e2ef.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .delete-button:hover{
+    color:#222;
+    font-weight:500
+}
+#appComments.template-default .delete-button:hover:after{
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-trash-red.1be8a3a1.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .button-cancel{
+    margin:0;
+    padding:0
+}
+#appComments.template-default .button-cancel:after{
+    content:"";
+    position:relative;
+    display:block;
+    float:right;
+    width:9px;
+    height:9px;
+    margin:2px 0 0 7px;
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-close.0da87d26.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .button-cancel:hover{
+    color:#222
+}
+#appComments.template-default .button-cancel:hover:after{
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-close-default.6a69cc41.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .button-close{
+    position:absolute;
+    top:14px;
+    right:24px;
+    margin:0;
+    padding:0;
+    border:none;
+    border-radius:unset;
+    background:none
+}
+#appComments.template-default .button-close:after{
+    content:"";
+    position:relative;
+    display:block;
+    width:13px;
+    height:13px;
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-close-bold.4a0a4d8f.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .button-close:hover{
+    color:#222
+}
+#appComments.template-default .button-close:hover:after{
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-close-bold-default.a31e389a.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .reaction-btn:before{
+    content:"";
+    position:relative;
+    display:block;
+    float:left;
+    width:15px;
+    height:15px;
+    margin:1px 7px 0 0;
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-plus.5473d2d8.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+#appComments.template-default .reaction-btn:hover:before{
+    background:url(https://g.dcdn.lt/misc/comment-fe/img/icon-plus-blue.09634f81.svg) 50% no-repeat;
+    -webkit-transition:.2s;
+    transition:.2s
+}
+ .userCommentsModal{
+    top:0!important
+}
+/*# sourceMappingURL=0.css.map?v=cf45e535b39a8410f3f2*/
